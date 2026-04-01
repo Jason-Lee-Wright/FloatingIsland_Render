@@ -5,6 +5,7 @@ using UnityEngine.InputSystem.LowLevel;
 public class CameraMovement : MonoBehaviour
 {
     public float OrbitSpeed = 500.0f;
+    public float IdleRotate = 10.0f;
     public GameObject CenterOfOrbit;
 
     private Vector3 SpaceOrbit;
@@ -24,10 +25,15 @@ public class CameraMovement : MonoBehaviour
             Cursor.visible = false;
         }
         
-        if (Input.GetKeyUp(KeyCode.Mouse1))
+        else if (Input.GetKeyUp(KeyCode.Mouse1))
         {
             Cursor.lockState = CursorLockMode.None;
             Cursor.visible = true;
+        }
+
+        else
+        {
+            this.gameObject.transform.Rotate(0, IdleRotate * Time.deltaTime, 0);
         }
     }
 

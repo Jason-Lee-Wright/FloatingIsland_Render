@@ -1012,6 +1012,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   OrbitSpeed: 1250
+  IdleRotate: -10
   CenterOfOrbit: {fileID: 0}
 --- !u!4 &702599616
 Transform:
