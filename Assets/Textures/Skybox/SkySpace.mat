@@ -125,6 +125,7 @@ Material:
     - _Smoothness: 0.5
     - _SmoothnessTextureChannel: 0
     - _SpecularHighlights: 1
+    - _Speed: 0.05
     - _SrcBlend: 1
     - _SrcBlendAlpha: 1
     - _SunDisk: 2
@@ -135,7 +136,7 @@ Material:
     - _ZWrite: 1
     m_Colors:
     - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
-    - _Bottem_Color: {r: 0.08432358, g: 0, b: 0.122641504, a: 0}
+    - _Bottem_Color: {r: 0.7837407, g: 0.048593827, b: 0.7924528, a: 0}
     - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _GroundColor: {r: 0.36899996, g: 0.34899998, b: 0.34099993, a: 1}
