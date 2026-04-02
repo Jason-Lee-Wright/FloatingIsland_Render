@@ -105,10 +105,12 @@ Material:
     - _BumpScale: 1
     - _ClearCoatMask: 0
     - _ClearCoatSmoothness: 0
+    - _ColorNoise: 100
     - _Cull: 2
     - _Cutoff: 0.5
     - _DetailAlbedoMapScale: 1
     - _DetailNormalMapScale: 1
+    - _DivisionTest: 50
     - _DstBlend: 0
     - _DstBlendAlpha: 0
     - _EnvironmentReflections: 1
@@ -128,8 +130,8 @@ Material:
     - _Speed: 0.05
     - _SrcBlend: 1
     - _SrcBlendAlpha: 1
-    - _StarNoise: 100
-    - _StarPower: 15
+    - _StarNoise: 50
+    - _StarPower: 1
     - _SunDisk: 2
     - _SunSize: 0.04
     - _SunSizeConvergence: 5
